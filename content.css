@@ -2,6 +2,7 @@
 /* 공통 부분 */
 section {
     margin-bottom: 70px;
+    padding-top: 150px;
 }
 i {
     cursor: pointer;
@@ -72,7 +73,8 @@ i {
     background-image: url(./img/choice_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .choice_box {
