@@ -2,6 +2,9 @@
 /* 공통 부분 */
 section {
     margin-bottom: 70px;
+    padding-top: 80px;
+}
+section.home {
     padding-top: 150px;
 }
 i {

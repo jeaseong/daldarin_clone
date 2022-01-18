@@ -9,7 +9,7 @@
 
 .cs > .content_title, .review > .content_title, .service > .content_title {
     text-align: center;
-    margin-top: 50px;
+    
 }
 
 .cs_img {
@@ -18,7 +18,7 @@
 /* bubble */
 
 .bubble_box {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
