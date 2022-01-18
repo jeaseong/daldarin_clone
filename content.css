@@ -3,6 +3,9 @@
 section {
     margin-bottom: 70px;
 }
+i {
+    cursor: pointer;
+}
 .main_container > .container_wrap {
     width: 90%;
 }
@@ -129,128 +132,9 @@ section {
     font-weight: bold;
 }
 
-/* cs, review */
-.cs, .review {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f8f8f8;
-}
-
-.cs > .content_title, .review > .content_title, .service > .content_title {
-    text-align: center;
-    margin-top: 50px;
-}
-/* bubble */
-
-.bubble_box {
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-.review_bubble {
-    width: 80%;
-    background-color: white;
-    border-radius: 20px 30px;
-    margin-bottom: 50px;
-    margin-right: 20px;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-}
 
 
-.review_bubble:nth-child(2) {
-    width: 90%;
-}
 
-.review_des {
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-/* service */
-.service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.order_btn {
-    margin-top: 40px;
-    width: 150px;
-    height: 50px;
-    background-color: black;
-    color: #ffffff;
-    border: none;
-    border-radius: 30px ;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-/* footer */
-
-.footer {
-    background-image: url(./img/footer_bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    color: #ffffff;
-    padding: 30px;    
-}
-
-.footer > .container_wrap {
-    position: relative;
-}
-
-.footer .img_box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.footer_cs {
-    margin-bottom: 30px;
-}
-
-.cs_title {
-    margin-bottom: 10px;
-}
-.cs_number {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.cs_time {
-    max-width: 230px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    color: #999999;
-}
-
-.co_title {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-.co_info {
-    color: #999999;
-    margin-bottom: 3px;
-}
-
-.footer > .container_wrap > i {
-    position: absolute;
-    top: 30px;
-    right: 0;
-    color: orange;
-    
-}
 
 @media screen and (min-width: 1024px) {
     .product_container {
