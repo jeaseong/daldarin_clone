@@ -1,7 +1,7 @@
 
 /* 공통 부분 */
 section {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .main_container > .container_wrap {
     width: 90%;
@@ -251,3 +251,10 @@ section {
     color: orange;
     
 }
+
+@media screen and (min-width: 1024px) {
+    .product_container {
+        width: 23%;
+        margin-bottom: 0;
+    }
+} 
